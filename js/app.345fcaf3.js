@@ -509,6 +509,18 @@ var Score_component = (0,componentNormalizer/* default */.Z)(
 /* harmony default export */ var Score = (Score_component.exports);
 ;// CONCATENATED MODULE: ./src/scores.js
 /* harmony default export */ var scores = ([{
+    value: "https://raw.githubusercontent.com/UnMolDeQuimica/partitures-source/main/assets/ay-linda-amiga.musicxml",
+    text: "Ay, linda amiga"
+  },
+  {
+    value: "https://raw.githubusercontent.com/UnMolDeQuimica/partitures-source/main/assets/lamo-de-son-carabassa.musicxml",
+    text: "L'Amo de Son Carabassa (sense lletra)"
+  },
+  {
+    value: "https://raw.githubusercontent.com/UnMolDeQuimica/partitures-source/main/assets/happy-x-mas-war-is-over.musicxml",
+    text: "Happy XMas (War Is Over)"
+  },
+{
   value: "https://opensheetmusicdisplay.github.io/demo/Beethoven_AnDieFerneGeliebte.xml",
   text: "Beethoven, L.v. - An die ferne Geliebte"
 }, {
@@ -610,7 +622,7 @@ var dist = __webpack_require__(5072);
     osmdInit(osmd) {
       console.log("OSMD init");
       this.osmd = osmd;
-      this.selectedScore = "https://opensheetmusicdisplay.github.io/demo/MuzioClementi_SonatinaOpus36No3_Part1.xml";
+      this.selectedScore = "https://raw.githubusercontent.com/UnMolDeQuimica/partitures-source/main/assets/ay-linda-amiga.musicxml";
     },
     async scoreLoaded() {
       console.log("Score loaded");
